@@ -71,7 +71,6 @@ void fwritenames_reverse(ofstream &f,char *list [])
 
 	for(int j = i-1; j >= 0 ; --j)
 	{
-		cout << j << endl;
 		f << list[j] << endl;
 		// your code is here
 	}
